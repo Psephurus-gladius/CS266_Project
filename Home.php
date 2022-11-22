@@ -175,13 +175,50 @@ $query2 = mysqli_query($conn, $sql2);
       </div>
 
       <div id = "myPadding" >
-          
+      <center><p class="fs-1">ภาพยนตร์มาแรง</p></center>
+      <center><div class="row row-cols-1 row-cols-md-3 g-4" > <!-- start--->
+                    <div class="col-md-6" style="width: 550px;">
+                              <div class="card" style="width:500px">
+                                    <div class="card-body">
+                                      <h4 class="card-title">Jane Doe</h4>
+                                      <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
+                                      <a href="#" class="btn btn-primary">See Profile</a>
+                                    </div>
+                                  <img class="card-img-bottom" src="../bootstrap4/img_avatar6.png" alt="Card image" style="width:100%">
+                              </div>
+                    </div>
+
+                    <div class="col-md-6" style="width: 650px;">
+                              <div class="card" style="width:500px">
+                                    <div class="card-body">
+                                      <h4 class="card-title">Jane Doe</h4>
+                                      <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
+                                      <a href="#" class="btn btn-primary">See Profile</a>
+                                    </div>
+                                  <img class="card-img-bottom" src="../bootstrap4/img_avatar6.png" alt="Card image" style="width:100%">
+                              </div>
+                    </div>
+
+                    <div class="col-md-6" style="width: 550px;">
+                              <div class="card" style="width:500px">
+                                    <div class="card-body">
+                                      <h4 class="card-title">Jane Doe</h4>
+                                      <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
+                                      <a href="#" class="btn btn-primary">See Profile</a>
+                                    </div>
+                                  <img class="card-img-bottom" src="../bootstrap4/img_avatar6.png" alt="Card image" style="width:100%">
+                              </div>
+                    </div>
+              </div></center>
+                    
           <center><p class="fs-1">ภาพยนตร์แนะนำ</p></center>
 
 
           <div class="container" style="margin-top: 15px;">
+          
             <div class="row">
                 <div class="col-md-6" style="width: 230px;">
+                
                     <div class="user-grid" style="height: 300 px;width: 205px;background: #1945aa;border-radius: 10px;border: 1px solid #343a40;">
                  
                       
@@ -194,9 +231,10 @@ $query2 = mysqli_query($conn, $sql2);
 </select>
                       </div>
                 </div>
+                
                 <div class="col-md-6" style="width: 910px;"> <!-- start--->
                     <div class="row row-cols-1 row-cols-md-3 g-4">
-					
+                  
 	<?php
 			$currentMovie = 0;
             while ($row = mysqli_fetch_array($query2)) 
