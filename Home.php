@@ -180,33 +180,33 @@ $query2 = mysqli_query($conn, $sql2);
                     <div class="col-md-6" style="width: 550px;">
                               <div class="card" style="width:500px">
                                     <div class="card-body">
-                                      <h4 class="card-title">Jane Doe</h4>
-                                      <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
-                                      <a href="#" class="btn btn-primary">See Profile</a>
+                                      <h4 class="card-title">Harry Potter</h4>
+                                      <p class="card-text">Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry.</p>
+                                      <a href="#" class="btn btn-primary">See Movie</a>
                                     </div>
-                                  <img class="card-img-bottom" src="../bootstrap4/img_avatar6.png" alt="Card image" style="width:100%">
+                                  <img class="card-img-bottom" src="img/harry_potter.png" alt="Card image" style="width:100%">
                               </div>
                     </div>
 
                     <div class="col-md-6" style="width: 650px;">
                               <div class="card" style="width:500px">
                                     <div class="card-body">
-                                      <h4 class="card-title">Jane Doe</h4>
-                                      <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
-                                      <a href="#" class="btn btn-primary">See Profile</a>
+                                      <h4 class="card-title">Top Gun: Maverick</h4>
+                                      <p class="card-text">After more than 30 years of service as one of the Navy's top aviators, Pete "Maverick" Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him. Training a detachment of graduates for a special assignment, Maverick must confront the ghosts of his past and his deepest fears, culminating in a mission that demands the ultimate sacrifice from those who choose to fly it.</p>
+                                      <a href="#" class="btn btn-primary">See Movie</a>
                                     </div>
-                                  <img class="card-img-bottom" src="../bootstrap4/img_avatar6.png" alt="Card image" style="width:100%">
+                                  <img class="card-img-bottom" src="img/top_gun_maverick.png" alt="Card image" style="width:100%">
                               </div>
                     </div>
 
                     <div class="col-md-6" style="width: 550px;">
                               <div class="card" style="width:500px">
                                     <div class="card-body">
-                                      <h4 class="card-title">Jane Doe</h4>
-                                      <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
+                                      <h4 class="card-title">Movie</h4>
+                                      <p class="card-text">Movies</p>
                                       <a href="#" class="btn btn-primary">See Profile</a>
                                     </div>
-                                  <img class="card-img-bottom" src="../bootstrap4/img_avatar6.png" alt="Card image" style="width:100%">
+                                  <img class="card-img-bottom" src="img/movieee" alt="Card image" style="width:100%">
                               </div>
                     </div>
               </div></center>
